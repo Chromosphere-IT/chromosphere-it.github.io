@@ -10,7 +10,8 @@ Zentrale Website von Chromosphere IT: Übersicht der Apps, Support-Seiten, Daten
 | `impressum.html` | Impressum nach § 5 DDG |
 | `<app>/index.html` | Support-Seite der App |
 | `<app>/privacy.html` | Datenschutzerklärung der App, nennt den Verantwortlichen |
-| `style.css` | Gemeinsames Stylesheet, hell/dunkel per `prefers-color-scheme`, Akzentfarbe pro App über die Body-Klasse (`jera`, `bcw`, `rista`, `crankoid`) |
+| `style.css` | Gemeinsames Stylesheet im Look des Hugo-Themes [Terminal](https://github.com/panr/hugo-theme-terminal) (eigene Umsetzung, kein Theme-Code): dunkel, Fira Code, eckige Rahmen, gepunktete Titellinien. Akzentfarbe pro App über die Body-Klasse (`jera`, `bcw`, `rista`, `crankoid`) |
+| `fonts/` | Fira Code als woff2 (Latin, Latin Extended), selbst gehostet, Lizenz `fonts/OFL.txt` |
 | `logo.png` | Logo (180×180), gleichzeitig Favicon und `apple-touch-icon` |
 | `.nojekyll` | Schaltet Jekyll ab, die Seiten werden unverändert ausgeliefert |
 
@@ -26,9 +27,9 @@ Apps: `jera/`, `binaryclockwatch/`, `rista/`, `crankoid/` (Playdate, Download au
 
 ## Neue App hinzufügen
 
-1. `jera/` kopieren und in `<app>/` umbenennen, Texte, `<title>` und App-Store-Link anpassen.
-2. In `style.css` eine Akzentfarbe `body.<klasse>` für hell und dunkel ergänzen.
-3. In `index.html` eine Karte im Block `.apps` ergänzen.
+1. `jera/` kopieren und in `<app>/` umbenennen, Texte, `<title>`, App-Store-Link und `aria-current` im Menü anpassen.
+2. In `style.css` eine Akzentfarbe `body.<klasse>` ergänzen.
+3. In `index.html` einen `<article class="post">`-Block ergänzen und in **allen** Seiten den Menüpunkt in `<nav class="menu">` nachtragen (Links sind wurzelrelativ, z.B. `/jera/`).
 4. In App Store Connect die Support-URL `https://chromosphere-it.github.io/<app>/` und die Datenschutz-URL `https://chromosphere-it.github.io/<app>/privacy.html` eintragen, außerdem in `fastlane/metadata/*/support_url.txt` und `privacy_url.txt`.
 5. Lokal prüfen (`python3 -m http.server`) und in Safari ansehen, dann pushen. Pages baut in weniger als einer Minute.
 
