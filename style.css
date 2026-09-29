@@ -110,6 +110,9 @@ hr { width: 100%; border: none; background: var(--accent); height: 2px; margin: 
 .post-meta { color: var(--muted); margin: 0 0 10px; }
 .post p { margin: 10px 0; }
 .links a + a { margin-left: 1ch; }
+.status { color: var(--accent); font-weight: 700; }
+.status::before { content: "["; }
+.status::after { content: "]"; }
 
 .page-title {
   color: var(--accent);
