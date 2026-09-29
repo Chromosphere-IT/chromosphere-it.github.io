@@ -5,11 +5,14 @@
 body.jera { --accent: #A0522D; }
 body.bcw { --accent: #2F6F5E; }
 body.rista { --accent: #9A3B1F; }
+body.crankoid { --accent: #8A6A00; }
+code { font-size: .92em; }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #1B1C1E; --card: #242628; --ink: #ECEAE6; --muted: #A4A8AD; --line: #3A3D40; --accent: #8DB4DB; }
   body.jera { --accent: #E0A07A; }
   body.bcw { --accent: #7CC7B2; }
   body.rista { --accent: #E08A63; }
+  body.crankoid { --accent: #F2C94C; }
 }
 * { box-sizing: border-box; }
 html { background: var(--bg); }

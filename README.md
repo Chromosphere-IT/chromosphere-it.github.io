@@ -10,11 +10,11 @@ Zentrale Website von Chromosphere IT: Übersicht der Apps, Support-Seiten, Daten
 | `impressum.html` | Impressum nach § 5 DDG |
 | `<app>/index.html` | Support-Seite der App |
 | `<app>/privacy.html` | Datenschutzerklärung der App, nennt den Verantwortlichen |
-| `style.css` | Gemeinsames Stylesheet, hell/dunkel per `prefers-color-scheme`, Akzentfarbe pro App über die Body-Klasse (`jera`, `bcw`, `rista`) |
+| `style.css` | Gemeinsames Stylesheet, hell/dunkel per `prefers-color-scheme`, Akzentfarbe pro App über die Body-Klasse (`jera`, `bcw`, `rista`, `crankoid`) |
 | `logo.png` | Logo (180×180), gleichzeitig Favicon und `apple-touch-icon` |
 | `.nojekyll` | Schaltet Jekyll ab, die Seiten werden unverändert ausgeliefert |
 
-Apps: `jera/`, `binaryclockwatch/`, `rista/`.
+Apps: `jera/`, `binaryclockwatch/`, `rista/`, `crankoid/` (Playdate, Download auf itch.io, Bestenliste auf crankoid.de).
 
 ## Regeln
 
