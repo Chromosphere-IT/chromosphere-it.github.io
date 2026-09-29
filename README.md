@@ -10,7 +10,7 @@ Zentrale Website von Chromosphere IT: Übersicht der Apps, Support-Seiten, Daten
 | `impressum.html` | Impressum nach § 5 DDG |
 | `<app>/index.html` | Support-Seite der App |
 | `<app>/privacy.html` | Datenschutzerklärung der App, nennt den Verantwortlichen |
-| `style.css` | Gemeinsames Stylesheet im Look des Hugo-Themes [Terminal](https://github.com/panr/hugo-theme-terminal) (eigene Umsetzung, kein Theme-Code): dunkel, Fira Code, eckige Rahmen, gepunktete Titellinien. Akzentfarbe pro App über die Body-Klasse (`jera`, `bcw`, `rista`, `crankoid`) |
+| `style.css` | Gemeinsames Stylesheet im Look des Hugo-Themes [Terminal](https://github.com/panr/hugo-theme-terminal) (eigene Umsetzung, kein Theme-Code): dunkel, Fira Code, eckige Rahmen, gepunktete Titellinien, zentrierte Spalte (max. 864 px) mit feiner Akzentlinie links und rechts. Akzentfarbe pro App über die Body-Klasse (`jera`, `bcw`, `rista`, `crankoid`) |
 | `fonts/` | Fira Code als woff2 (Latin, Latin Extended), selbst gehostet, Lizenz `fonts/OFL.txt` |
 | `logo.png` | Logo (180×180), gleichzeitig Favicon und `apple-touch-icon` |
 | `.nojekyll` | Schaltet Jekyll ab, die Seiten werden unverändert ausgeliefert |
