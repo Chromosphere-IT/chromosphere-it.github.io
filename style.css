@@ -54,7 +54,9 @@ body {
   flex-direction: column;
   max-width: 864px;
   min-height: 100vh;
+  margin: 0 auto;
   padding: 40px;
+  border-left: 1px solid color-mix(in srgb, var(--accent) 10%, transparent);
   border-right: 1px solid color-mix(in srgb, var(--accent) 10%, transparent);
 }
 
@@ -127,6 +129,6 @@ hr { width: 100%; border: none; background: var(--accent); height: 2px; margin: 
 .footer span { white-space: nowrap; }
 
 @media (max-width: 684px) {
-  .container { padding: 20px 16px; border-right: none; }
+  .container { padding: 20px 16px; border-left: none; border-right: none; }
   hr { margin: 35px 0; }
 }
