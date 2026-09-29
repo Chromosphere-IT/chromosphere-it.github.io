@@ -24,6 +24,10 @@ h2 { font-size: 1.15rem; margin-top: 2.25rem; }
 .lead { color: var(--muted); margin-top: 0; }
 nav.crumb { font-size: .9rem; margin-bottom: 2rem; }
 nav.crumb a { text-decoration: none; }
+nav.crumb .mark { width: 20px; height: 20px; border-radius: 5px; vertical-align: -4px; margin-right: .4rem; }
+.brand { display: flex; align-items: center; gap: 1rem; margin-bottom: .75rem; }
+.brand img { width: 72px; height: 72px; border-radius: 16px; flex: none; }
+.brand h1 { margin: 0; }
 .apps { display: grid; gap: 1rem; margin: 1.5rem 0; }
 .app { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.25rem; text-decoration: none; color: var(--ink); }
 .app:hover { border-color: var(--accent); }
