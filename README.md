@@ -10,7 +10,7 @@ Zentrale Website von Chromosphere IT: Übersicht der Apps, Support-Seiten, Daten
 | `impressum.html` | Impressum nach § 5 DDG |
 | `<app>/index.html` | Support-Seite der App |
 | `<app>/privacy.html` | Datenschutzerklärung der App, nennt den Verantwortlichen |
-| `style.css` | Gemeinsames Stylesheet im Look des Hugo-Themes [Terminal](https://github.com/panr/hugo-theme-terminal) (eigene Umsetzung, kein Theme-Code): dunkel, Fira Code, eckige Rahmen, gepunktete Titellinien, zentrierte Spalte (max. 864 px) mit feiner Akzentlinie links und rechts. Akzentfarbe pro App über die Body-Klasse (`jera`, `bcw`, `rista`, `crankoid`) |
+| `style.css` | Gemeinsames Stylesheet in Neumorphism (Soft UI), gleiche Identität wie der Blog `ckoys.github.io`: Palette „Kiefer und Moos“ (hell `#e0e3da`, dunkel `#242a20`, Akzent Moos `#8fbf6a`; Testseite mit allen Kandidaten: `~/Developer/neumorphism-mockup/palette.html`), hell/dunkel per `prefers-color-scheme`, Fira Code, Karten und Buttons erhaben, aktiver Menüpunkt eingelassen, zentrierte Spalte (max. 864 px). Akzentfarbe pro App über die Body-Klasse (`jera`, `bcw`, `rista`, `chrrpy`, `soo`, `crankoid`), im hellen Modus automatisch abgedunkelt (Kontrast mind. 4,5:1) |
 | `fonts/` | Fira Code als woff2 (Latin, Latin Extended), selbst gehostet, Lizenz `fonts/OFL.txt` |
 | `logo.png` | Logo (180×180), gleichzeitig Favicon und `apple-touch-icon` |
 | `.nojekyll` | Schaltet Jekyll ab, die Seiten werden unverändert ausgeliefert |
